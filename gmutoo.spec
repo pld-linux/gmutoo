@@ -7,7 +7,7 @@ Summary(pl):	gMUTOO - eleganckie narzêdzie do uruchamiania/zatrzymywania/monitor
 Name:		gmutoo
 Version:	0.1
 Release:	0.1
-License:	GPL v2
+License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://www.develia.org/files/%{name}-%{version}.tar.bz2
 # Source0-md5:	44453caf4551682a957eb3fe48d9de76
@@ -17,6 +17,7 @@ BuildRequires:	gamin-devel >= 0.1.7
 %endif
 BuildRequires:	glib2-devel >= 1:2.6
 BuildRequires:	gtk+2-devel >= 2:2.6
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -79,7 +80,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-#%doc AUTHORS CREDITS ChangeLog NEWS README THANKS TODO
+%doc AUTHORS README
+%lang(it) %doc README.it
 %attr(755,root,root) %{_bindir}/%{name}
 %{_desktopdir}/%{name}.desktop
 %{_pixmapsdir}/%{name}_icon.xpm
