@@ -62,7 +62,7 @@ w³±czona, czy wy³±czona).
 
 %build
 %configure \
-%if %{without gamin}
+%if !%{with gamin}
 	--disable-monitor
 %endif
 
