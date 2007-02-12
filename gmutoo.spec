@@ -3,7 +3,7 @@
 %bcond_without	gamin	# build without file monitoring
 #
 Summary:	gMUTOO - elegant service launcher/stopper/monitor
-Summary(pl):	gMUTOO - eleganckie narzêdzie do uruchamiania/zatrzymywania/monitorowania us³ug
+Summary(pl.UTF-8):   gMUTOO - eleganckie narzÄ™dzie do uruchamiania/zatrzymywania/monitorowania usÅ‚ug
 Name:		gmutoo
 Version:	0.1
 Release:	0.1
@@ -38,24 +38,24 @@ monitor won't be available in this case (for each entry in its menu,
 gMUTOO will then provide start/stop buttons so the user can decide if
 a service should be started or stopped).
 
-%description -l pl
-gMUTOO to eleganckie narzêdzie do uruchamiania, zatrzymywania i
-monitorowania us³ug mieszcz±ce siê w zasobniku zarz±dcy okien. By³o
-pomy¶lane przede wszystkim do uruchamiania demonów (httpd, ftpd, sshd
-itp.), ale mo¿e byæ u¿ywane do uruchamiania i zatrzymywania prawie
+%description -l pl.UTF-8
+gMUTOO to eleganckie narzÄ™dzie do uruchamiania, zatrzymywania i
+monitorowania usÅ‚ug mieszczÄ…ce siÄ™ w zasobniku zarzÄ…dcy okien. ByÅ‚o
+pomyÅ›lane przede wszystkim do uruchamiania demonÃ³w (httpd, ftpd, sshd
+itp.), ale moÅ¼e byÄ‡ uÅ¼ywane do uruchamiania i zatrzymywania prawie
 wszystkiego.
 
-Dla ka¿dego wpisu w menu uruchamiania mo¿na podaæ plik do
+Dla kaÅ¼dego wpisu w menu uruchamiania moÅ¼na podaÄ‡ plik do
 monitorowania (zwykle plik PID). Stan tego pliku (czy istnieje) jest
-monitorowany przy u¿yciu Gamina (reimplementacji FAM-a); zmiany w
-pliku stanu wp³ywaj± na zachowanie gMUTOO, który wy¶wietla stan
-us³ugi i umo¿liwia szybkie uruchomienie jej je¶li jest wy³±czona lub
-zatrzymanie je¶li jest w³±czona.
+monitorowany przy uÅ¼yciu Gamina (reimplementacji FAM-a); zmiany w
+pliku stanu wpÅ‚ywajÄ… na zachowanie gMUTOO, ktÃ³ry wyÅ›wietla stan
+usÅ‚ugi i umoÅ¼liwia szybkie uruchomienie jej jeÅ›li jest wyÅ‚Ä…czona lub
+zatrzymanie jeÅ›li jest wÅ‚Ä…czona.
 
-gMUTOO mo¿na ³atwo zbudowaæ bez obs³ugi Gamina, ale wtedy nie ma
-monitorowania plików (dla ka¿dego wpisu w menu gMUTOO udostêpnia wtedy
-przyciski start/stop, a u¿ytkownik decyduje, czy us³uga powinna byæ
-w³±czona, czy wy³±czona).
+gMUTOO moÅ¼na Å‚atwo zbudowaÄ‡ bez obsÅ‚ugi Gamina, ale wtedy nie ma
+monitorowania plikÃ³w (dla kaÅ¼dego wpisu w menu gMUTOO udostÄ™pnia wtedy
+przyciski start/stop, a uÅ¼ytkownik decyduje, czy usÅ‚uga powinna byÄ‡
+wÅ‚Ä…czona, czy wyÅ‚Ä…czona).
 
 %prep
 %setup -q
