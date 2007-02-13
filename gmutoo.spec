@@ -3,7 +3,7 @@
 %bcond_without	gamin	# build without file monitoring
 #
 Summary:	gMUTOO - elegant service launcher/stopper/monitor
-Summary(pl.UTF-8):   gMUTOO - eleganckie narzędzie do uruchamiania/zatrzymywania/monitorowania usług
+Summary(pl.UTF-8):	gMUTOO - eleganckie narzędzie do uruchamiania/zatrzymywania/monitorowania usług
 Name:		gmutoo
 Version:	0.1
 Release:	0.1
